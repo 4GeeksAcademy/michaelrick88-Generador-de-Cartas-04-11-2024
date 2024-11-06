@@ -1,1 +1,26 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+
+#bodyCart {
+  width: 400px;
+  height: 550px;
+  border: 2px solid red;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tipoDeCarta {
+  font-size: 50px;
+  align-self: flex-start;
+}
+.numeroDeCarta {
+  font-size: 80px;
+  align-self: center;
+}
+#simbolo2 {
+  text-align: left;
+  align-self: flex-end;
+}
